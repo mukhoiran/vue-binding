@@ -18,8 +18,15 @@ var app = new Vue({
   // }
 
   // <!-- =========== Tooltip Hover =========== -->
+  // data:{
+  //   message: 'Hallo Vue'
+  // }
+
+  // <!-- =========== Combination =========== -->
   data:{
-    message: 'Hallo Vue'
+      imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vue.png/220px-Vue.png',
+      imagewidth: 100,
+      information: "This is Vue JS"
   }
 
 })

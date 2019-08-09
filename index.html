@@ -22,7 +22,10 @@
       <!-- <b :class="change">testing</b> -->
 
       <!-- =========== Tooltip hover =========== -->
-      <b :title="message">Hover cursor here</b>
+      <!-- <b :title="message">Hover cursor here</b> -->
+
+      <!-- =========== Combination =========== -->
+      <img v-bind:src="imageSrc" :style="{width: imagewidth + 'px'}" :title="information">
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
