@@ -13,8 +13,13 @@ var app = new Vue({
   // }
 
   // <!-- =========== Binding Class =========== -->
+  // data:{
+  //   change: 'color'
+  // }
+
+  // <!-- =========== Tooltip Hover =========== -->
   data:{
-    change: 'color'
+    message: 'Hallo Vue'
   }
 
 })
