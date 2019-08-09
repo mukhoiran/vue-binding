@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>VueJS Binding</title>
+    <style media="screen">
+      .color{
+        color: red;
+      }
+    </style>
   </head>
   <body>
     <div id="app">
@@ -11,7 +16,10 @@
       <!-- <img :src="imageSrc"> -->
 
       <!-- =========== Binding style =========== -->
-      <img :src="imageSrc" :style="{width: imagewidth + 'px'}">
+      <!-- <img :src="imageSrc" :style="{width: imagewidth + 'px'}"> -->
+
+      <!-- =========== Binding class =========== -->
+      <b :class="change">testing</b>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>

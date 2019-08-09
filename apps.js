@@ -7,10 +7,14 @@ var app = new Vue({
   // }
 
   // <!-- =========== Binding Style =========== -->
-  data:{
-    imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vue.png/220px-Vue.png',
-    imagewidth: 100
-  }
+  // data:{
+  //   imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vue.png/220px-Vue.png',
+  //   imagewidth: 100
+  // }
 
+  // <!-- =========== Binding Class =========== -->
+  data:{
+    change: 'color'
+  }
 
 })
