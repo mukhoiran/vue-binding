@@ -1,2 +1,2 @@
 # vuejs-binding
-Documentation binding on VueJS
+Binding on VueJS
